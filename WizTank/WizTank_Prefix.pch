@@ -1,0 +1,54 @@
+//
+// Prefix header for all source files of the 'WizTank' target in the 'WizTank' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define emailKey @"email"
+#define passwordKey @"password"
+#define fNamekey @"fName"
+#define lNameKey @"lName"
+#define genderKey @"gender"
+#define dobKey @"dob"
+#define countryKey @"country"
+#define phoneKey @"phone"
+#define usernameKey @"username"
+#define passwordKey @"password"
+#define imageKey @"imgData"
+#define imageURLKey @"imgPath"
+//////////////////////
+#define authTokenKey @"authKey"
+#define UserIDKey @"userId"
+
+#define isFollowingKey @"following"
+/////////////////////
+
+#define LatitudeKey @"Latitude"
+#define LongitudeKey @"Longitude"
+
+#define OkKey @"OK"
+#define ZeroResultsKey @"ZERO_RESULTS"
+#define UnknownErrorKey @"UNKNOWN_ERROR"
+
+#define NOT_FOUND @"NOT_FOUND"
+
+#define SuccessKey @"Success"
+#define FailureKey @"Failure"
+
+#define remember_tokenKey @"remember_token"
+
+#define authUserNameKey @"wizapiuser"
+#define authPasswordKey @"sFJ44BcyW2a9WhQ"
+
+#define USLocaleKey @"en-US"
+#define registrationObjkey @"registrationObj"
+///////
+#define SearchPeopleJSONKey @"contacts"
+
+//  Added by Hassan on March 2, 2012
+
+#define PointsArayForRouteKey @"PointsArayForRouteKey"
+#define UserProfileImage @"userProfileImageData"
